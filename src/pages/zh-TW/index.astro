@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout lang="zh-TW" title="北卡浙大校友會北卡總部站" description="連接與服務北卡羅來納州地區（包括RTP及周邊地區）的浙江大學校友，促進交流合作、生活互助與社區繁榮發展。" path="/">
+  <div class="max-w-4xl mx-auto px-6 space-y-12">
+    <!-- Hero -->
+    <header class="text-center py-10 space-y-4">
+      <div class="inline-flex items-center gap-x-2 bg-blue-950/40 text-blue-400 px-4 py-1.5 rounded-full text-xs font-semibold border border-blue-900/30">
+        <span class="w-1.5 h-1.5 bg-blue-400 rounded-full animate-ping"></span>
+        <span>北卡浙大校友會 官方聯絡站 (ZJUAANC Hub)</span>
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-slate-200 leading-tight mt-2">
+        北卡浙大校友會<br><span class="ai-gradient">北卡總部站</span>
+      </h1>
+      <p class="max-w-2xl mx-auto text-slate-400 text-base md:text-lg leading-relaxed">
+        連接與服務北卡羅來納州地區（包括RTP及周邊地區）的浙江大學校友，促進交流合作、生活互助與社區繁榮發展。
+      </p>
+    </header>
+
+    <!-- Hero Image Banner -->
+    <div class="relative w-full h-48 md:h-64 rounded-3xl overflow-hidden border border-slate-900 shadow-2xl bg-slate-900 flex items-center justify-center group">
+      <img src="/images/hero.jpg" alt="Hero Banner" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.015]" />
+      <div class="absolute inset-0 bg-gradient-to-t from-slate-950/40 to-transparent"></div>
+    </div>
+
+    <!-- Local Contact Section -->
+    <section class="bg-slate-900/30 border border-slate-900 rounded-3xl p-6 md:p-8 space-y-4 shadow-xl">
+      <h2 class="text-xl font-bold text-slate-200 flex items-center gap-x-2">
+        <i class="fa-solid fa-location-dot text-blue-500"></i>
+        <span>本站聯絡人</span>
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-4">
+        <!-- Contact 1 -->
+        <div class="bg-blue-950/20 border border-blue-900/20 p-5 rounded-2xl flex items-start gap-4">
+          <div class="w-12 h-12 rounded-full bg-blue-600/10 text-blue-400 border border-blue-500/20 flex items-center justify-center font-bold text-lg shrink-0">
+            NC
+          </div>
+          <div>
+            <div class="text-base font-bold text-slate-200 leading-snug">張向武（副部長）</div>
+            <div class="text-xs text-slate-500 mt-1">負責領域：北卡RTP地區與高校</div>
+            <div class="text-xs text-blue-400 mt-2 flex items-center gap-x-1.5 justify-start">
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:nc@zjuaanc.org" class="hover:underline">nc@zjuaanc.org</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact 2 -->
+        <div class="bg-blue-950/20 border border-blue-900/20 p-5 rounded-2xl flex items-start gap-4">
+          <div class="w-12 h-12 rounded-full bg-blue-600/10 text-blue-400 border border-blue-500/20 flex items-center justify-center font-bold text-lg shrink-0">
+            NC
+          </div>
+          <div>
+            <div class="text-base font-bold text-slate-200 leading-snug">鄭乃權（副部長）</div>
+            <div class="text-xs text-slate-500 mt-1">負責領域：北卡非RTP地區和金融財務機構</div>
+            <div class="text-xs text-blue-400 mt-2 flex items-center gap-x-1.5 justify-start">
+              <i class="fa-regular fa-envelope"></i>
+              <a href="mailto:hq@zjuaanc.org" class="hover:underline">hq@zjuaanc.org</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Liaison Directory -->
+    <section class="space-y-6">
+      <h2 class="text-xl font-bold text-slate-200 flex items-center gap-x-2 border-b border-slate-900 pb-3">
+        <i class="fa-solid fa-address-book text-blue-500"></i>
+        <span>校友會聯絡部組織架構 (總部執委會)</span>
+      </h2>
+      <p class="text-xs text-slate-400 leading-relaxed">
+        北卡浙大校友會聯絡部部長及各地區/行業分部副部長：
+      </p>
+      
+      <div class="grid sm:grid-cols-2 gap-4">
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">戚霄 <span class="text-xs text-slate-500 font-normal">（部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：華盛頓州和海外</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">張向武 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：北卡RTP地區與高校</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">鄭乃權 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：北卡非RTP地區和金融財務機構</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">徐剛 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：中國大陸姊妹校友會</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">黃勤 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：德州和科研機構</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">沈章鑫 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：華盛頓特區和政府機構</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">祁蕾 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：中國大陸和母校</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">霍明旭 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：加州、田納西州、和北美姊妹機構、和北美姊妹校友會聯絡</div>
+        </div>
+        <div class="bg-slate-900/60 border border-slate-900/60 p-4 rounded-xl">
+          <div class="font-bold text-slate-200 text-sm">張文博 <span class="text-xs text-slate-500 font-normal">（副部長）</span></div>
+          <div class="text-xs text-slate-400 mt-1">負責領域：佛州和中文學校等機構</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
